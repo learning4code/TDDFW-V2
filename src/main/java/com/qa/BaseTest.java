@@ -12,8 +12,10 @@ import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
+import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
+import java.util.HashMap;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -27,7 +29,12 @@ public class BaseTest {
 
 	protected static AppiumDriver driver;
 	protected static Properties props;
+	protected static HashMap<String, String> strings
+	                 =new HashMap<String, String>(); 
+	
 	InputStream inputStream;
+	InputStream stringsis;
+	TestUtils utils;
 
 	public BaseTest() {
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
@@ -35,14 +42,20 @@ public class BaseTest {
 
 	@Parameters({ "platformName", "platformVersion", "deviceName" })
 	@BeforeTest
-	public void beforeTest(String platformName, String platformVersion, String deviceName) {
+	public void beforeTest(String platformName, String platformVersion, String deviceName) throws Exception {
 
-		try {
+		try { 
 
 			props = new Properties();
 			String propFileName = "config.properties";
+			String xmlFileName = "strings/strings.xml";
 			inputStream = getClass().getClassLoader().getResourceAsStream(propFileName);
 			props.load(inputStream);
+			
+			stringsis=getClass().getClassLoader().getResourceAsStream(xmlFileName);
+			
+			utils=new TestUtils();
+			strings=utils.parseStringXML(stringsis);
 
 			DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
 
@@ -63,6 +76,14 @@ public class BaseTest {
 
 		} catch (Exception e) {
 			e.printStackTrace();
+		} finally {
+			if(inputStream!=null) {
+			 inputStream.close();
+			}
+			
+			if(stringsis!=null) {
+				stringsis.close();
+			}
 		}
 	}
 

@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="28009" started-at="2020-02-29T11:55:05 IST" finished-at="2020-02-29T11:55:33 IST">
+  <suite name="Suite" duration-ms="100005" started-at="2020-03-02T17:47:14 IST" finished-at="2020-03-02T17:48:54 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="28009" started-at="2020-02-29T11:55:05 IST" finished-at="2020-02-29T11:55:33 IST">
+    <test name="Test" duration-ms="100005" started-at="2020-03-02T17:47:14 IST" finished-at="2020-03-02T17:48:54 IST">
       <class name="com.qa.tests.LoginTests">
-        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.LoginTests@77846d2c]" name="beforeTest" is-config="true" duration-ms="16451" started-at="2020-02-29T11:55:05 IST" finished-at="2020-02-29T11:55:22 IST">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.LoginTests@16f7c8c1]" name="beforeTest" is-config="true" duration-ms="84063" started-at="2020-03-02T17:47:14 IST" finished-at="2020-03-02T17:48:38 IST">
           <params>
             <param index="0">
               <value>
@@ -28,11 +28,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.qa.tests.LoginTests@77846d2c]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-02-29T11:55:22 IST" finished-at="2020-02-29T11:55:22 IST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.qa.tests.LoginTests@16f7c8c1]" name="beforeClass" is-config="true" duration-ms="82" started-at="2020-03-02T17:48:38 IST" finished-at="2020-03-02T17:48:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@77846d2c]" name="beforeMethod" is-config="true" duration-ms="438" started-at="2020-02-29T11:55:22 IST" finished-at="2020-02-29T11:55:22 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@16f7c8c1]" name="beforeMethod" is-config="true" duration-ms="431" started-at="2020-03-02T17:48:38 IST" finished-at="2020-03-02T17:48:39 IST">
           <params>
             <param index="0">
               <value>
@@ -43,15 +43,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="invalidPassword()[pri:0, instance:com.qa.tests.LoginTests@77846d2c]" name="invalidPassword" duration-ms="3334" started-at="2020-02-29T11:55:22 IST" finished-at="2020-02-29T11:55:25 IST">
+        <test-method status="PASS" signature="invalidPassword()[pri:0, instance:com.qa.tests.LoginTests@16f7c8c1]" name="invalidPassword" duration-ms="5176" started-at="2020-03-02T17:48:39 IST" finished-at="2020-03-02T17:48:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidPassword -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.LoginTests@77846d2c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-29T11:55:25 IST" finished-at="2020-02-29T11:55:25 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.LoginTests@16f7c8c1]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-03-02T17:48:44 IST" finished-at="2020-03-02T17:48:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@77846d2c]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2020-02-29T11:55:25 IST" finished-at="2020-02-29T11:55:25 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@16f7c8c1]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2020-03-02T17:48:44 IST" finished-at="2020-03-02T17:48:44 IST">
           <params>
             <param index="0">
               <value>
@@ -62,15 +62,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="invalidUserName()[pri:0, instance:com.qa.tests.LoginTests@77846d2c]" name="invalidUserName" duration-ms="2203" started-at="2020-02-29T11:55:25 IST" finished-at="2020-02-29T11:55:28 IST">
+        <test-method status="PASS" signature="invalidUserName()[pri:0, instance:com.qa.tests.LoginTests@16f7c8c1]" name="invalidUserName" duration-ms="2372" started-at="2020-03-02T17:48:44 IST" finished-at="2020-03-02T17:48:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidUserName -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.LoginTests@77846d2c]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-29T11:55:28 IST" finished-at="2020-02-29T11:55:28 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.LoginTests@16f7c8c1]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-03-02T17:48:46 IST" finished-at="2020-03-02T17:48:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@77846d2c]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2020-02-29T11:55:28 IST" finished-at="2020-02-29T11:55:28 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@16f7c8c1]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2020-03-02T17:48:46 IST" finished-at="2020-03-02T17:48:46 IST">
           <params>
             <param index="0">
               <value>
@@ -81,19 +81,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="validCredentials()[pri:0, instance:com.qa.tests.LoginTests@77846d2c]" name="validCredentials" duration-ms="4090" started-at="2020-02-29T11:55:28 IST" finished-at="2020-02-29T11:55:32 IST">
+        <test-method status="PASS" signature="validCredentials()[pri:0, instance:com.qa.tests.LoginTests@16f7c8c1]" name="validCredentials" duration-ms="4068" started-at="2020-03-02T17:48:46 IST" finished-at="2020-03-02T17:48:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validCredentials -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.LoginTests@77846d2c]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-29T11:55:32 IST" finished-at="2020-02-29T11:55:32 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.LoginTests@16f7c8c1]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-03-02T17:48:50 IST" finished-at="2020-03-02T17:48:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.qa.tests.LoginTests@77846d2c]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-02-29T11:55:32 IST" finished-at="2020-02-29T11:55:32 IST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.qa.tests.LoginTests@16f7c8c1]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-03-02T17:48:50 IST" finished-at="2020-03-02T17:48:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qa.tests.LoginTests@77846d2c]" name="afterTest" is-config="true" duration-ms="1393" started-at="2020-02-29T11:55:32 IST" finished-at="2020-02-29T11:55:33 IST">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qa.tests.LoginTests@16f7c8c1]" name="afterTest" is-config="true" duration-ms="3680" started-at="2020-03-02T17:48:50 IST" finished-at="2020-03-02T17:48:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
